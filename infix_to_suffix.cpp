@@ -87,10 +87,10 @@ void change(char *tmp, char *str)
 
 
 int main(){
-    char tmp[512]="9-2*2+(9-8)", str[512];
+    char tmp[512],str[512];
     cout<<"输入运算表达式：";
     cin>>tmp;
     change(tmp,str);
-    cout<<str;
+    cout<<"转换后结果："<<str;
 
 }
